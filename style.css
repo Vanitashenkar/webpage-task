@@ -1,0 +1,138 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #fff;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 15px;
+    border: 2px solid #f2f2f2;
+}
+
+/* Header */
+.header h1 {
+    color: #ff4d8b;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+
+/* Pricing Section */
+.unit-box {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 15px;
+    position: relative;
+    border-radius: 5px;
+}
+
+.unit-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.unit-title {
+    font-size: 1rem;
+    color: #333;
+}
+
+.discount-tag {
+    background: #ff4d8b;
+    color: #fff;
+    font-size: 0.8rem;
+    padding: 2px 6px;
+    border-radius: 4px;
+}
+
+.popular-tag {
+    position: absolute;
+    top: -12px;
+    right: 10px;
+    background: #ffbf00;
+    color: #fff;
+    font-size: 0.7rem;
+    padding: 3px 5px;
+    border-radius: 3px;
+}
+
+.price {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+    margin: 5px 0;
+}
+
+.original-price {
+    text-decoration: line-through;
+    color: #999;
+    font-size: 0.9rem;
+}
+
+/* Options Dropdown */
+.options {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+}
+
+label {
+    font-size: 0.9rem;
+    margin-right: 5px;
+}
+
+select {
+    padding: 3px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+/* Cart Section */
+.cart-section {
+    text-align: center;
+}
+
+.free-delivery {
+    color: #ff4d8b;
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+
+.total-price {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+}
+
+.add-to-cart {
+    background-color: #ff4d8b;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-to-cart:hover {
+    background-color: #ff3366;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #aaa;
+    margin-top: 20px;
+}
+
+
